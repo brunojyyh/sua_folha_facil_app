@@ -1,0 +1,154 @@
+html {
+    /* colocando esse heigth aqui  todos os elementos se encaixam na tela e o footer fica no final da pagina */
+    height: 100vh;
+    min-height: 100%;
+    
+}
+body {
+    /* usando essas propriedades dentro do body, estou dizendo que o body tem que ocupar no minimo 100% da altura, fazendo com que o footer sempre fique fixo no final da pagina */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+/* .topo{
+    width:  100%;
+    
+    height: 150px;
+    background-color: rgb(56, 53, 53);
+    text-shadow: 0.2em 0.2em black;
+}
+
+
+.topo__titulo {
+    padding: 60px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fdfdfd;
+    text-shadow: 50px;
+}
+.caixa {
+    display: flex;
+    width: 940px;
+    height: 300px;
+    margin: 10px auto;
+    border: 2px solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.caixa__titulo {
+    width: 328px;
+    padding-bottom: 20px;
+}
+.caixa__label {
+    line-height: 1.8;
+    font-weight: bold;
+    width: 328px; 
+
+    
+}
+#salario {
+    width: 20em;
+
+}
+#salario::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.caixa__paragrafo {
+    width: 328px;
+    text-align: left;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.caixa__dependentes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.dependentes__pergunta {
+    line-height: 1.8;
+}
+.caixa__botao {
+    margin: 10px 0 4px 0;
+
+}
+.caixa__botao:hover {
+    cursor: pointer;
+}
+.folha__titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.folha__inss{
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 0 10px;
+    
+
+}
+
+
+.rodape  {
+    width: 100vw;
+    height: 12rem;
+    border: 1px solid black;
+    margin-top: auto;
+    background-color: rgb(56, 53, 53);
+}
+.rodape__conteudo {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rodape__direitos {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+}
+.rodape__lista {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 30px;
+
+    
+}
+.lista__social {
+    margin-left: 10px;
+} */
+
+.footer {
+    background-color: rgb(31, 31, 27);
+  }
+
+  
+  /* nav {
+    display: flex;
+    list-style: none;
+  } */
+
+.centro {
+    width: 50%;
+}
+
+@media(max-width: 1000px) {
+.centro {
+        width: 66%;
+    }
+.m-3.w-80.mb-1{
+    margin-left: 0;
+}
+.fonte_personalizada {
+    font-size: 1.0rem!important;
+}
+}
