@@ -42,35 +42,16 @@
 
         
         <section class="centro mx-auto align-content-center d-flex flex-column">
-          <h1 class="text-center fs-4 fw-bold m-3 mt-1 mb-1" >Calcular Salário Líquido</h1>
-          <H2 class="text-center fs-5 fw-bold m-3 mt-0 d-none d-sm-block">Preencha as informações abaixo para prosseguir:</H2>
-          <div class="m-3 w-80 mb-0">
+          <h1 class="text-center fs-4 fw-bold m-3 mt-1 mb-1" >Calcular Valor do FGTS</h1>
+          <H2 class="text-center fs-5 fw-bold m-3 mb-5 mt-0 d-none d-sm-block">Preencha o campo abaixo para prosseguir:</H2>
+          <div class="m-3 w-80 mb-4">
             <label for="salario" class="form-label mb-1">Salário:</label>
             <input type="number" class="form-control" name="txtsalario" id="salario" placeholder="Valor do salário">
           </div>
-          <div class="m-3 w-80 mb-1 ">
-            <label for="sel2" class="form-label mb-0" >Dependentes:</label>
-            <select  class="form-control" id="sel2">
-              <option>0</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
-          </div>
-          <div class="m-3 w-80 mb-1">
-            <label for="descontos" class="form-label mb-0">Outros Descontos:</label>
-            <input type="email" class="form-control" id="descontos" placeholder="valor dos descontos">
-          </div>
-          <div class="form-check form-switch m-3">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-            <label class="form-check-label" for="flexSwitchCheckDefault">Desconta vale transporte ?</label>
-          </div>
-
         
             
         </section>
-        <div id="caixa_botão" class="d-flex justify-content-center">
+        <div id="caixa_botão" class="d-flex justify-content-center mb-5">
           <button type="button" class="btn btn-secondary btn-lg  w-10 " value="calcular" data-botao>Calcular</button>
         </div>
           
@@ -129,6 +110,6 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <SCript src="assets/calculo.js"></SCript>
+    <SCript src="assets/fgts.js"></SCript>
 </body>
 </html>
