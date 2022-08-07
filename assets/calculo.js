@@ -144,7 +144,7 @@ const calcula = () => {
     </tbody>
   </table>
   <div class="d-flex justify-content-center fs-5 fonte_personalizada fw-bold">
-     <p class="mt-2 fs-5 fw-normal">Quer aprender a fazer o calculo?
+     <p class="mt-2 fs-6 fw-normal">Quer aprender a fazer o calculo?
         <a class="text-decoration-none text-reset fw-bold" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#"> Clique aqui</a>
      </p>
   </div>`
