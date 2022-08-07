@@ -130,6 +130,10 @@ body {
 .footer {
     background-color: rgb(31, 31, 27);
   }
+.right {
+    text-align: right;
+    margin-right: 1em;
+  }
 
   
   /* nav {

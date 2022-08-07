@@ -114,13 +114,13 @@ const calcula = () => {
       </tr>
       <tr>
         <th class="fw-normal" scope="row">INSS</th>
-        <td>${aliquota.toFixed(2).replace('.',',')}%</td>
+        <td class="right">${aliquota.toFixed(2).replace('.',',')}%</td>
         <td>-</td>
         <td>R$ ${Number(inss).toFixed(2).replace('.',',')}</td>
       </tr>
       <tr>
         <th class="fw-normal" scope="row">IRRF</th>
-        <td>-</td>
+        <td class="right">${(aliquotaIrrf*100).toFixed(2).replace('.',',')}%</td>
         <td>-</td>
         <td>R$ ${Number(irrf).toFixed(2).replace('.',',')}</td>
 
@@ -139,7 +139,7 @@ const calcula = () => {
       </tr>
       <tr>
       <th colspan="2">Salário Líquido</th>
-      <td class="fw-bold"  colspan="2">${salarioLiquido}</td>
+      <td class="fw-bold right"  colspan="2">R$ ${salarioLiquido}</td>
       </tr>
     </tbody>
   </table>
