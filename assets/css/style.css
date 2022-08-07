@@ -154,5 +154,7 @@ body {
 }
 .fonte_personalizada {
     font-size:10px !important;
+    border-spacing: 20px !important ;
+
 }
 }
